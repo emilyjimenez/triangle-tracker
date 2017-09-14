@@ -34,7 +34,7 @@ var checkIsEquilateral = function(side1, side2, side3) {
   } else {
     return false;
   }
-}
+};
 
 var checkIsIsosceles = function(side1, side2, side3) {
   if (side1 === side2 && side2 !== side3) {
@@ -48,7 +48,7 @@ var checkIsIsosceles = function(side1, side2, side3) {
   } else {
     return false;
   }
-}
+};
 
 
 $(document).ready(function() {
