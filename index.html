@@ -12,31 +12,34 @@
       <h1>Triangle Tracker</h1>
       <p>Enter your triangle statistics, and we will classify it for you, free of charge!</p>
       <div class="form-group">
-        <form id="input">
+        <form id="triangle-data">
           <div class=form-group>
             <label for="side1">Length of side 1:</label>
           </div>
           <div class=form-group>
-          <input id="side1" type="number">
+            <input id="side1" type="number" required>
           </div>
 
           <div class=form-group>
             <label for="side2">Length of side 2:</label>
           </div>
           <div class=form-group>
-          <input id="side2" type="number">
+            <input id="side2" type="number" required>
           </div>
 
           <div class=form-group>
             <label for="side3">Length of side 3:</label>
           </div>
           <div class=form-group>
-          <input id="side3" type="number">
+            <input id="side3" type="number" required>
+          </div>
+          <div class=form-group>
+            <button type="submit" class="btn">Calculate!</button>
           </div>
         </form>
 
         <div class="output">
-          
+
         </div>
 
       </div>
